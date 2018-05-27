@@ -191,17 +191,17 @@
 <p>（8）允许一个用户假装为另一个用户（如果他们允许）的身份进行访问；</p>
 <p>（9）记住我，这个是非常常见的功能，即一次登录后，下次再来的话不用登录了。</p>
 <h1 id="二、Shiro实例详细说明"><a href="#二、Shiro实例详细说明" class="headerlink" title="二、Shiro实例详细说明"></a>二、Shiro实例详细说明</h1><pre><code>1.引人maven仓库所需的jar包 maven依赖如下：
-</code></pre><p><img src="./shiropei.png" alt=""></p>
+</code></pre><p><img src="../shiropei.png" alt=""></p>
 <pre><code>2.定义shiro拦截器
 </code></pre><p>对url进行拦截，如果没有验证成功的需要验证，然后额外给用户赋予角色和权限。具体代码如下：</p>
 <p><img src="../shiroquan.png" alt=""></p>
-pre><code>3.spring-shiro.xml配置文件如下:
+<pre><code>3.spring-shiro.xml配置文件如下:
 </code></pre>
 <p><img src="../shirodui.png" alt=""></p>
-pre><code>4.web.xml配置引入对应的配置文件和过滤器
+<pre><code>4.web.xml配置引入对应的配置文件和过滤器
 </code></pre>
 <p><img src="../shiroguo.png" alt=""></p>
-pre><code>5.整个shiro权限框架配置如上
+<pre><code>5.整个shiro权限框架配置如上
 </code></pre>
 
 
